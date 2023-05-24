@@ -4,9 +4,57 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/styles.css">
     <title>Formulario DB</title>
 </head>
 <body>
-    
+    <header class="header">
+        <h2>Formulario de Registro Persona</h2>
+    </header>
+
+    <main class="main">
+        <section class="formulario">
+            <div>
+                <form action="#" id="formulario">
+                    <h2>Registrar Personas</h2>
+                    
+                    <input type="text" name="nombre" id="id" placeholder="id">
+                    <input type="text" name="nombre" id="txtNombre" placeholder="Nombre">
+                    <input type="text" name="Apellido" id="txtApellido" placeholder="Apellido">
+                    <input type="text" name="Direccion" id="txtDireccion" placeholder="Direccion">
+                    <input type="tel" name="telefono" id="txtTelefono" placeholder="Telefono">
+                    <input type="email" name="email" id="txtCorreo" placeholder="Correo electronico">
+                    <input type="text" name="pais" id="txtPais" placeholder="Pais">
+                    <input type="text" name="ciudad" id="txtCiudad" placeholder="Ciudad">
+                  <button type="submit" class="btn">Agregar</button>
+                </form>
+            </div>
+            <div>
+                <div class="table">
+                    <table class="cart-table">
+                        <thead class="table-header">
+                           <tr> 
+                           <th>Nombre</th>
+                           <th>Apellido</th>
+                           <th>Direccion</th>
+                           <th>Telefono</th>
+                           <th>Email</th>
+                           <th>Pais</th>
+                           <th>Ciudad</th>
+                           <th>Editar</th>
+                           </tr>
+                           
+                        </thead>
+                        <tbody class="table-body">   
+                          
+                         
+                        </tbody>  
+                    </table>
+
+                </div>
+            </div>
+        </section>
+    </main>
+    <script src="/main.js"></script>
 </body>
 </html>

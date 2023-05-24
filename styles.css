@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&family=Poppins:wght@100;200;300;400;500;600;700;800&family=Roboto:wght@100;300;400;500;700&family=Sassy+Frass&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+   width: 1200px;
+   max-width: 900px;
+   background-color: #1e1ef194;
+   margin: auto;
+   padding: 20px 0;
+}
+.header{
+    width: 100%;
+    height: 100%;
+}
+.header h2{
+    text-align: center;
+    margin: 20px 0;
+    font-size: 30px;
+    color: #fffffffb;
+}
+
+.formulario{
+   margin: auto;
+   width: 100%;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+
+}
+form{
+    background-color: #FFF;
+    width: 400px;
+    margin: 10px auto;
+    box-shadow: 0 0 6px rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+    padding: 10px;
+}
+form h2{
+    text-align: center;
+    color: #1e1ef194;
+
+}
+.titulo{
+    text-align: center;
+    color: #1e1ef194;
+}
+
+input{
+    display: block;
+    width: 80%;
+    margin: 20px auto;
+    border: none;
+    padding: 10px 15px;
+    border: 1px solid #1e1ef12f; 
+    border-radius: 10px;
+    color:#07070cd5 ;
+    font-size: 16px;
+}
+.btn{
+    width: 80%;
+    display: block;
+    margin: auto ;
+    background-color: #1e1ef194;
+    border: none;
+    color: #FFF;
+    font-size: 15px;
+    padding:  10px;
+    border-radius: 10px;
+}
+
+.table{
+    background-color: #FFF;
+    width:100% ;
+    box-shadow: 0 0 6px rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+}
+.cart-table{
+    width: 100%;
+    margin:auto;
+    padding: 10px;
+}
+th{
+   font-size: 14px;
+   margin: auto;
+   text-align: center;
+}
+td{
+    font-size: 14px;
+    text-align: center;
+    
+}
+.table-header{
+    margin: 0 5px;
+}
+.actions{
+    width: 15px;
+    display: block;
+}
+.btns{
+    display: flex;
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    font-size: 14px;
+    margin-top: 5px;
+}
+.btn-edit{
+    background-color: green;
+    color: #FFF;
+}
+.btn-delete{
+    background-color: red;
+    color: #FFF;
+}
