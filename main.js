@@ -1,8 +1,8 @@
-const urlobtenerPersonas = './API/obtenerPersonas.php';
-const urlEditarPersonas = '/.API/editarPersonas.php';
-const urlAgregarPersonas = '/.API/agregarPersonas.php';
-const urlEliminarPersonas = './API/borrarPersonas.php';
-const urlBuscarPersonas = './API/buscador.php';
+const urlobtenerPersonas = './obtenerPersonas.php';
+const urlEditarPersonas = './editarPersonas.php';
+const urlAgregarPersonas = './agregarPersonas.php';
+const urlEliminarPersonas = './borrarPersonas.php';
+const urlBuscarPersonas = './buscador.php';
 
 const btndelete = document.querySelector('.btn-delete');
 const btnedit = document.querySelector('.btn-edit');
