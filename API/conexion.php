@@ -1,6 +1,6 @@
 <?php
    // Variables de la conexion a la DB
-   $mysqli = new mysqli("localhost","root","","crudpracticafinal");
+   $mysqli = new mysqli("localhost","id20802832_root","Luis.1629","id20802832_crudpracticafinal");
     
    // Comprobamos la conexion
    if($mysqli->connect_errno) {

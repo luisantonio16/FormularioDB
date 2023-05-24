@@ -1,8 +1,8 @@
-const urlobtenerPersonas = 'http://localhost/Formulario/FormularioDB/API/obtenerPersonas.php';
-const urlEditarPersonas = 'http://localhost/Formulario/FormularioDB/API/editarPersonas.php';
-const urlAgregarPersonas = 'http://localhost/Formulario/FormularioDB/API/agregarPersonas.php';
-const urlEliminarPersonas = 'http://localhost/Formulario/FormularioDB/API/borrarPersonas.php';
-const urlBuscarPersonas = 'http://localhost/Formulario/FormularioDB/API/buscador.php';
+const urlobtenerPersonas = './API/obtenerPersonas.php';
+const urlEditarPersonas = '/.API/editarPersonas.php';
+const urlAgregarPersonas = '/.API/agregarPersonas.php';
+const urlEliminarPersonas = './API/borrarPersonas.php';
+const urlBuscarPersonas = './API/buscador.php';
 
 const btndelete = document.querySelector('.btn-delete');
 const btnedit = document.querySelector('.btn-edit');

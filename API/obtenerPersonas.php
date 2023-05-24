@@ -11,7 +11,7 @@
     
     // PRUEBAS
     
-    $sql = "SELECT * FROM Persona";
+    $sql = "SELECT * FROM persona";
     $query = $mysqli->query($sql);
     
     $datos = array();
